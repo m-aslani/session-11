@@ -1,0 +1,186 @@
+@font-face {
+  font-family: 'Nazanin';
+  src: url('https://cdn.fontcdn.ir/Font/Persian/Nazanin/Nazanin.eot');
+  src: url('https://cdn.fontcdn.ir/Font/Persian/Nazanin/Nazanin.eot?#iefix') format('embedded-opentype'),
+   url('https://cdn.fontcdn.ir/Font/Persian/Nazanin/Nazanin.woff') format('woff'),
+   url('https://cdn.fontcdn.ir/Font/Persian/Nazanin/Nazanin.ttf') format('truetype');
+  font-weight: normal;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:  'Nazanin';
+}
+.container{
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-color: rgb(170, 170, 170);
+  margin: auto;
+}
+.body{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 480px;
+  height:480px;
+  background-color: rgb(1, 28, 29);
+}
+.show--info--body{
+  display: block;
+  position: absolute;
+  /* left: 2px; */
+  top: 0px;
+  width: 480px;
+  height:480px;
+  background-color: rgb(1, 28, 29);
+  text-align: center;
+}
+.show--info--body--invisible{
+display: none;
+}
+.info{
+  color: white;
+  font-size: 20px;
+}
+button{
+  cursor: pointer;
+}
+button:active{
+  transform: scale(0.98);
+}
+.btn-container{
+  padding: 20px 10px 30px;
+  margin-left: 30px;
+}
+.head-btn,.active{
+  width: 200px;
+  height: 40px;
+  border: none;
+  background-color: rgb(73, 85, 80);
+  color: rgb(184, 184, 184);
+  font-weight: bolder;
+  font-size: large;
+  font-family: inherit;
+}
+.head-btn:hover{
+ background-color: rgb(58, 68, 63);
+}
+.header{
+  text-align: center;
+}
+h1{
+  color:white;
+  padding:0 0 5px 0;
+}
+.active{
+  color: white;
+  background-color: rgb(0, 219, 135);
+}
+.sign-up{
+  display: block;
+  margin:10px 30px;
+  text-align: right;
+}
+.sign-up-invisible{
+display: none;
+}
+.name{
+  display: flex;
+}
+input{
+  width: 95%;
+  height: 30px;
+  margin: 10px;
+  text-align: right;
+  font-size: 20px;
+  font-family: inherit;
+  background-color: rgb(1, 28, 29);
+  border: 0.5px rgba(226, 226, 226, 0.616) solid;
+  color: rgb(184, 184, 184);
+  padding: 10px ;
+}
+.visible-label{
+  display: block;
+  color: rgb(173, 30, 30);
+  text-align: right;
+  margin-right: 10px;
+}
+.invisible-label{
+  display: none;
+}
+select{
+  width: 45%;
+  height: 30px;
+  margin: 5px 10px;
+  text-align: center;
+  font-size: 15px;
+  font-family: inherit;
+  background-color: rgb(1, 28, 29);
+  border: 0.5px rgba(226, 226, 226, 0.616) solid;
+  color: rgb(184, 184, 184);
+  padding: 5px; 
+}
+.set-uni{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.invisible-input{
+  display: none;
+}
+.pass-wrapper{
+  display: flex;
+  position: relative;
+}
+.icon{
+  color:rgb(0, 219, 135) ;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  cursor: pointer;
+}
+p{
+  color: rgb(0, 219, 135);
+  margin: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+p:hover , .icon:hover{
+  color: rgb(0, 168, 104);
+}
+.footer{
+  padding: 10px 10px 5px;
+  vertical-align: middle;
+  /* margin-left: 30px;
+  margin-top: 250px; */
+  position: absolute;
+  left: 6%;
+  bottom: 5%;
+}
+.submit{
+  width: 400px;
+  height: 40px;
+  background-color: rgb(0, 219, 135);
+  color: white;
+  font-size: 30px;
+  font-family: inherit;
+  border: none;
+}
+.btn{
+  margin-top: 10px;
+  width: 400px;
+  height: 40px;
+  background-color: rgb(0, 219, 135);
+  color: white;
+  font-size: 30px;
+  font-family: inherit;
+  border: none;
+}
+.active:hover , .submit:hover{
+  background-color: rgb(0, 168, 104);
+}
